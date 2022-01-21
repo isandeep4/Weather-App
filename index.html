@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css'>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <top-bar></top-bar>
+
+    <app-header></app-header>
+
+    <weather></weather>
+
+    <!-- third-party js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js'></script>
+
+    <!-- main js -->
+    <script src="app.module.js"></script>
+
+    <!-- core services -->
+    <script src="core/app.core.js"></script>
+    <script src="core/weather.service.js"></script>
+    <script src="core/conversion.service.js"></script>
+
+    <!-- top bar -->
+    <script src="bar/topBar.module.js"></script>
+    <script src="bar/topBar.component.js"></script>
+
+    <!-- header -->
+    <script src="header/header.module.js"></script>
+    <script src="header/header.component.js"></script>
+
+    <!-- weather -->
+    <script src="weather/weather.module.js"></script>
+    <script src="weather/weather.component.js"></script>
+    
+  </body>
+</html>

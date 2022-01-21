@@ -1,0 +1,19 @@
+{
+  "name": "local-weather-app",
+  "description": "View the local weather at your location. Convert between imperial and metric units.",
+  "version": "1.1.0",
+  "engines": {
+    "node": "^6.11.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.3.2"
+  }
+}

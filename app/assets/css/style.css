@@ -1,0 +1,104 @@
+body {
+	background: #2196F3;
+	color: #FFFFFF;
+}
+
+/*TOP NAV STYLES*/
+
+.navbar {
+	background: #2196F3;
+	border: none;
+	color: #FFFFFF;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 60px;
+	font-size: 18px;
+}
+
+.navbar-default {
+	min-height: 60px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	color: #ffffff;
+	margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 60px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+	color: #FFFFFF;
+	background: #1976D2;
+}
+
+.changeTemp {
+	cursor: pointer;
+}
+
+span {
+	opacity: 0.40;
+}
+
+.selected {
+	opacity: 0.99;
+}
+
+.unselected {
+	opacity: 0.40;
+}
+
+/* USER LOCATION INFO SYTLES*/
+
+.page-header {
+	margin-top: 30px;
+}
+
+
+/*CURRENT WEATHER STYLES*/
+
+.weather-current {
+	padding-top: 25px;
+}
+
+.weather-current .weather-icons {
+	font-size: 180px;
+	margin-top: 25px;
+}
+
+.weather-current .current-temp {
+	font-size: 180px;
+	margin-top: 25px;
+}
+
+.weather-day .humidWind {
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+/*MEDIA STYLES */
+
+@media only screen and (max-width: 750px) {
+	.weather-current .weather-icons {
+		font-size: 115px;
+	}
+
+	.weather-current .current-temp {
+		font-size: 115px;
+	}
+
+	.weather-day .humidWind {
+		font-size: 40px;
+	}
+}
